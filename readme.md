@@ -1,6 +1,6 @@
-# Apollo Server Chat
+# Personal Chatting Seerver
 
-This project is a small project about chat with authentication using Apollo Server and Javascript.
+Hi! It's my project **personal-chatting-system** for server with authentication using Apollo Server and Javascript.. If you want to check on my client code, go to my another repo by clicking [here]("https://gitlab.com/3ee-/personal-chat-client")
 
 ## Installation
 
@@ -13,7 +13,7 @@ Use the package manager [yarn](https://yarnpkg.com/) or [npm](https://nodejs.org
 
 ## How to Run locally
 
-to run this project you must set up on root ```index.js``` file
+to run this project you must set up on root `index.js` file
 
 ```bash
 const knexConfig = {
@@ -30,8 +30,8 @@ const knexConfig = {
 Change this to your own credentials.
 
 ---
-After that, you can create table on your own local, by executing this command
 
+After that, you can create table on your own local, by executing this command
 
 ```bash
 /* User Table */

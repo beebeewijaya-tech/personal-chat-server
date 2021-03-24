@@ -49,7 +49,7 @@ const schema = gql`
     createdAt: String
     sender: Profile
     recipient: Profile
-    lastMessage: String
+    lastMessage: Chat
   }
 
   type Profile {

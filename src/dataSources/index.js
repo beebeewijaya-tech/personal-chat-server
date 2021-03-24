@@ -26,7 +26,7 @@ class Database extends SQLDataSource {
   updateConversation(conversationId, lastMessage) {
     return this.knex("conversations")
       .where({ id: conversationId })
-      .update({ lastMessage })
+      .update({ lastMessage });
   }
 
   insertChat(chat) {
@@ -34,7 +34,14 @@ class Database extends SQLDataSource {
   }
 
   getChatsByConversation(conversationId) {
-    return this.knex('chats').select('*').where({ conversationId })
+    return this.knex("chats")
+      .select("*")
+      .where({ conversationId })
+      .orderBy("createdAt", "desc");
+  }
+
+  getChatById(id) {
+    return this.knex("chats").select("*").where({ id }).first();
   }
 }
 
