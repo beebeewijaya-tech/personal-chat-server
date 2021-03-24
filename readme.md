@@ -2,6 +2,8 @@
 
 Hi! It's my project **personal-chatting-system** for server with authentication using Apollo Server and Javascript.. If you want to check on my client code, go to my another repo by clicking [here]("https://gitlab.com/3ee-/personal-chat-client")
 
+![Chat Website](chat.png)
+
 ## Installation
 
 Use the package manager [yarn](https://yarnpkg.com/) or [npm](https://nodejs.org/en/) to install this project.
